@@ -1,0 +1,59 @@
+.bookdetails .value-button {
+  display: inline-block;
+  border: 2px solid #ddd;
+  margin: 1px;
+  width: 50px;
+  height: 40px;
+  text-align: center;
+  vertical-align: middle;
+  padding: 1px 0;
+  background: darkorange;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-align: center;
+  font-size:2rem;
+  color:black;
+  font-weight:bold;
+}
+
+.bookdetails .box .value-button:hover {
+  cursor: pointer;
+}
+
+.bookdetails form #decrease {
+  margin-right: 1rem;
+  border-radius: 8px 0 0 8px;
+}
+
+.bookdetails form #increase {
+  margin-left: 1rem;
+  border-radius: 0 8px 8px 0;
+}
+
+.bookdetails form #input-wrap {
+  margin: 0px;
+  padding: 0px;
+}
+
+.bookdetails input#number {
+  text-align: center;
+  border: none;
+  border-top: 2px solid #ddd;
+  border-bottom: 2px solid #ddd;
+  margin: 1px;
+  width: 40px;
+  height: 40px;
+    font-size:1.5rem;
+    color:black;
+    font-weight:bold;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}

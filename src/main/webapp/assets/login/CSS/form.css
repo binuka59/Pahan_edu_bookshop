@@ -1,0 +1,612 @@
+
+.img-fluid
+ {
+    max-width: 80%;
+    height: auto;
+}
+
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 2px;
+background: #ffffff;
+}
+
+.vh-100
+{
+    padding-left: 8rem;
+   
+}
+.vh-100 h1
+{
+    color:black;
+    padding-left: 65rem;
+    font-size: 2rem;
+    font-weight: 800;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-display:initial;
+    
+
+}
+.vh-100 h3
+{
+    color:red;
+    padding-left: 65rem;
+    font-size: 2rem;
+    font-weight:bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-display:initial;
+
+
+}
+.form
+{
+    position: relative;
+}
+
+.form label
+{
+    color: black;
+    font-size:1.4rem; 
+    padding-bottom:.3rem;
+    display:flex;
+    margin-top:1rem;
+    font-weight: 600;
+
+}
+.field-icon {
+    position: absolute;
+    top: 70%;
+    right: 15px;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    color: rgba(0, 0, 0, 0.9); }
+ 
+
+
+.form .form-control
+{
+    padding-top:1rem;
+    background: #ffffff;
+    border: .2rem solid rgb(255, 166, 0);
+    padding: 0.4rem 2rem;
+}
+.form .form-control:hover
+{
+    padding-top:1rem;
+    background:lightgray;
+    border: .2rem solid rgb(255, 166, 10);
+    padding: 0.4rem 2rem;
+}
+ .verify .controls
+{
+    padding:1rem 1rem;
+    border: .2rem solid darkgolden;
+    border:2px solid black;
+    font-size:2rem;
+    font-weight:bold;
+    text-align:center;
+}
+ .verify .controls:hover
+{
+    padding:1rem 1rem;
+    border: .2rem solid darkgolden;
+    border:2px solid black;
+}
+
+.d-flex
+{
+    padding-top: 1rem;
+    font-size:1.3rem; 
+}
+
+.d-flex .form-check
+{ 
+    padding-left: 5rem;
+    color: #e6e5ef;
+    
+}
+
+ 
+
+.d-flex a
+{
+    
+    padding-left:7rem;
+
+}
+.account
+{
+    padding-top: 1rem;
+    color:Black;
+    text-align:right;
+    font-size:1.4rem;
+    padding-right: 2rem;
+    font-weight:bold;
+}
+
+.account a
+{
+    color: rgb(235, 8, 8);
+    font-size:1.3rem;
+    font-weight: bold;
+    padding-left:1rem;
+}
+.account a:hover
+{
+    font-size:1.5rem; 
+}
+
+.sigbtn{
+    background-color:rgb(245, 183, 82);
+    display: block;
+    width: 100%;
+    margin-top: 1rem;
+    border-radius: .5rem;
+    color:black;
+    font-size:18px;
+    padding: 0.7rem 9rem;
+    text-transform: capitalize;
+    cursor: pointer;
+    text-align: center;
+    border: black solid .2rem;
+    font-weight:bold;
+ }
+
+ .sigbtn:hover
+{
+   color: black;
+   background-color:darkgolden;
+   border: rgb(171, 107, 4) solid .2rem;
+}
+
+
+/* --------------------------------------------------------------------------------
+                        footer
+------------------------------------------------------------------------------- */
+.copyright
+{
+    display:block;
+    color: black;
+    font-size: 18px;
+    font-weight: bolder;
+    padding-left: 10rem;
+    padding-bottom: 1rem;
+    font-weight:bold;
+}
+
+.credits
+{
+    display: inline-block;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    padding-left:6rem;
+    padding-bottom: 2rem;
+}
+
+.credits span
+{
+    color: #db8505;
+    font-size: 17px;
+    font-weight: bolder;
+    
+
+}
+
+/* --------------------------------------------------------------------------------
+                        footer register
+------------------------------------------------------------------------------- */
+.copyrights
+{
+    display:block;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bolder;
+    padding-left: 10rem;
+    padding-bottom: 1rem;
+    padding-top: 3rem;
+}
+
+.creditss
+{
+    display: inline-block;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    padding-left:6rem;
+    padding-bottom: 2rem;
+}
+
+.creditss span
+{
+    color: #db8505;
+    font-size: 17px;
+    font-weight: bolder;
+    
+
+}
+
+ /*--------------------------------------------------------------
+  # Preloader
+  --------------------------------------------------------------*/
+  #preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999;
+    overflow: hidden;
+    background: #1a1814;
+  }
+  
+  #preloader:before {
+    content: "";
+    position: fixed;
+    top: calc(50% - 30px);
+    left: calc(50% - 30px);
+    border: 6px solid #1a1814;
+    border-top-color: #cda45e;
+    border-bottom-color: #cda45e;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    animation: animate-preloader 1s linear infinite;
+  }
+  
+  @keyframes animate-preloader {
+    0% {
+      transform: rotate(0deg);
+    }
+  
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+@media(max-width:200px)
+{
+    .vh-100
+    {
+        padding-left: 2rem;
+    }
+    .vh-100 h1
+    {
+        padding-left:30%;
+        font-size: 1rem;
+        font-weight: 800%;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        
+    
+    } 
+    .d-flex 
+    {
+        padding-top:.1rem;
+        font-size:1.3rem; 
+        
+        
+    }
+    .d-flex .form-check
+    {
+        padding-top: 1rem;
+        padding-left:4rem;  
+        
+    }
+    .d-flex .forge
+    {
+        padding-top: 1rem;
+        padding-left:2rem;  
+        
+    }
+    .account
+    {
+        padding-right: 1rem;
+       
+        
+    }
+    .fbbtn
+    {  
+    
+        font-size:10px;
+        padding: 0.9rem 9rem;
+     
+    }
+    .twbtn
+    {
+    font-size:10px;
+    padding: 0.9rem 9rem;
+    
+    }
+    .copyright
+    {
+        padding-top: 10rem;
+        font-size: 14px;
+        font-weight: bolder;
+        padding-left:2rem;
+    }
+
+    .credits
+    {
+        font-size: 13px;
+        font-weight: bolder;
+        padding-left:1rem;
+    
+    }
+
+    .credits span
+    {
+        font-size: 13px;
+    }
+
+}
+
+
+@media(max-width:400px)
+{
+    .vh-100
+    {
+        padding-left: 2rem;
+        
+    }
+    .vh-100 h1
+    {
+        padding-left:30%;
+        font-size: 1rem;
+        font-weight: 800%;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        
+    
+    } 
+    .d-flex 
+    {
+        padding-top:.1rem;
+        font-size:1.3rem; 
+       
+       
+        
+        
+    }
+    .d-flex .form-check
+    {
+        padding-top: 1rem;
+        padding-left:4rem;  
+       font-size: 15px;
+       
+        
+    }
+    .d-flex .forge
+    {
+        padding-top: 1rem;
+        padding-left:2rem;  
+        
+    }
+    .account
+    {
+        font-size: 15px;
+        padding-right:10rem;  
+        
+    }
+    .fbbtn
+    {  
+    
+        font-size:10px;
+        padding: 0.6rem 9rem;
+     
+    }
+    .twbtn
+    {
+    font-size:10px;
+    padding: 0.9rem 9rem;
+    
+    }
+
+    .copyright
+    {
+        padding-top: 1rem;
+        font-size: 14px;
+        font-weight: bolder;
+        padding-left:2rem;
+     
+    
+    }
+
+    .credits
+    {
+        font-size: 13px;
+        font-weight: bolder;
+        padding-left:1rem;
+    }
+
+    .credits span
+    {
+        font-size: 13px;
+    }
+
+ 
+
+}
+
+@media(max-width:800px)
+{
+    .vh-100
+    {
+       
+        padding-left: 2rem;
+    }
+    .vh-100 h1
+    {
+        padding-left:30%;
+        font-size: 1rem;
+        font-weight: 800%;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        
+    
+    } 
+    .d-flex 
+    {
+        padding-top:.1rem;
+        font-size:1.3rem; 
+        
+        
+    }
+    .d-flex .form-check
+    {
+        padding-top: 1rem;
+        padding-left:4rem;  
+        
+    }
+    .d-flex .forge
+    {
+        padding-top: 1rem;
+        padding-left:2rem;  
+        
+    }
+
+    .account
+    {
+        padding-right: 2rem;
+       
+        
+    }
+    .fbbtn
+    {  
+    
+        font-size:11px;
+        padding: 0.9rem 9rem;
+     
+    }
+    .twbtn
+    {
+    font-size:10px;
+    padding: 0.9rem 9rem;
+    
+    }
+
+    .copyright
+    {
+        padding-top: 1rem;
+        font-size: 14px;
+        font-weight: bolder;
+        padding-left:7rem;
+        
+    
+    }
+
+    .credits
+    {
+        font-size:14px;
+        font-weight: bolder;
+        padding-left:6rem;
+    }
+
+    .credits span
+    {
+        font-size: 13px;
+    }
+
+    
+}
+
+
+@media(max-width:1000px)
+{
+    .vh-100
+    {
+        padding-left: 2rem;
+    }
+    .vh-100 h1
+    {
+        padding-left:50%;
+        font-size: 1rem;
+        font-weight: 800%;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        
+    
+    } 
+    .d-flex 
+    {
+        padding-top:.1rem;
+        font-size:1.3rem; 
+        
+        
+    }
+    .d-flex .form-check
+    {
+        padding-top: 1rem;
+        padding-left:4rem;  
+        
+    }
+    .d-flex .forge
+    {
+        padding-top: 1rem;
+        padding-left:2rem;  
+        
+    }
+    .account
+    {
+        padding-right: 2rem;
+       
+        
+    }
+    .fbbtn
+    {  
+    
+        font-size:11px;
+        padding: 1rem 9rem;
+     
+    }
+    .twbtn
+    {
+    font-size:10px;
+    padding: 0.9rem 9rem;
+    
+    }
+    .copyright
+    {
+        padding-top: 1rem;
+        font-size: 14px;
+        font-weight: bolder;
+        padding-left:2%;
+    
+    }
+
+    .credits
+    {
+        font-size:14px;
+        font-weight: bolder;
+        padding-left:1%;
+    }
+
+    .credits span
+    {
+        font-size:13px;
+    }
+
+}
+/* @media(max-width:768px)
+{
+    .copyright
+    {
+        padding-top: 1rem;
+        font-size: 16px;
+        font-weight: bolder;
+        padding-left:15rem;
+       
+    
+    }
+
+    .credits
+    {
+        font-size:16px;
+        font-weight: bolder;
+        padding-left:13rem;
+    }
+
+    .credits span
+    {
+        font-size:15px;
+    }
+} */

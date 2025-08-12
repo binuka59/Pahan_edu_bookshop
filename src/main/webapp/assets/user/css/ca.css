@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+.bookdetails .row {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.bookdetails .box {
+ 	background-color:white;
+ 	margin-top:1.5rem;
+ 	width:20rem;
+ 	height:auto;
+     display: flex;
+     flex-direction: column;
+  	justify-content: flex-start;
+     margin-left:1.5rem;
+     align-items: stretch;
+     box-sizing: border-box;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+     border-radius: 0.5rem;
+     text-align: center;
+     border-radius: 0.5rem;
+
+       flex-direction: column;
+       flex: 1 1 50px;
+}
+.bookdetails .image-holder img
+{
+    width:15rem;
+    height:15rem;
+
+}
+.bookdetails .card-body h4{
+ 	height:4rem;
+
+}
+
+
+
+
+.bookdetails .container-lg h2
+{
+text-align: center;
+margin-top:15rem;
+
+}
+
+.bookdetails .btn {
+    display: block;
+
+    padding: 1px 1px;
+    width: 12rem;
+    color: rgb(0, 0, 0);
+    font-size: 1.3rem;
+    font-weight: bold;
+    border: 3px solid gray;
+    border-radius: 0.5rem;
+    margin: 2rem auto 0 auto;
+    text-align: center;
+
+}
+
+.bookdetails .post-title
+{
+	
+	font-size:1.5rem;
+}

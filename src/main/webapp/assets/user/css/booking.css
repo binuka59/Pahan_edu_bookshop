@@ -1,0 +1,156 @@
+
+.container-fluid .display
+{
+    font-size: 5rem;
+     margin-top:12rem;
+    padding-bottom: 2rem;
+
+}
+
+.container-fluid label
+{
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    padding-bottom: 1rem;
+    font-weight: bold;
+}
+.container-fluid .controlls
+{
+    color: darkred;
+    font-size: 20px;
+    background: whitesmoke;
+    border: red solid 2px;
+    border-radius:.5rem;
+    padding-bottom: 1rem;
+    text-align:center;
+    box-shadow: 0 4px 10px rgba(9, 9, 9, 0.9);
+    justify-items:center;
+}
+
+
+
+
+.container-fluid input
+{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    background: lightgoldenrodyellow;
+    border: black solid 2px;
+    border-radius:.5rem;
+    padding-bottom: 1rem;
+    box-shadow: 0 4px 10px rgba(9, 9, 9, 0.9);
+}
+
+.container-fluid select
+{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    background: lightgoldenrodyellow;
+    border: black solid 2px;
+      border-radius:.5rem;
+box-shadow: 0 4px 10px rgba(9, 9, 9, 0.9);
+    padding-bottom: 1rem;
+}
+.booking .form-control
+{
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: 600;
+
+}
+
+
+
+.container-fluid .form-group
+{
+    /* background: rgb(255, 240, 104); */
+    padding:1rem;
+}
+
+   .booking .bookbtn {
+    border-radius:0.9rem;
+    padding:5px 0;
+    box-shadow: 0 4px 10px rgba(9, 9, 9, 0.9);
+        color:black;
+        font-weight:bold;
+        font-size:18px;
+        border:3px solid #fdb813;
+        background:whitesmoke;
+        width:500px;
+        margin-top:10rem;
+
+        display: block;
+        margin: 2rem auto;
+        text-align: center;
+
+    }
+   .container-fluid .bookbtn:hover {
+    transition:2s;
+    font-size:20px;
+    border:3px solid black;
+
+
+
+    }
+@media(max-width:992px)
+{
+    .tops .bounceInUp
+    {
+        width: 50%;
+
+    }
+
+    .bounceInUp h1
+    {
+        font-size: 20px;
+    }
+    .bounceInUp p
+    {
+        font-size: 12px;
+    }
+
+    .container-fluid label
+    {
+        color: rgb(0, 0, 0);
+        font-size: 15px;
+        display: flex;
+
+    }
+
+    .container-fluid input
+    {
+        color: rgb(0, 0, 0);
+        font-size: 20px;
+        background: lightgoldenrodyellow;
+        border: black solid 2px;
+        padding-bottom: 1rem;
+        width: 90%;
+    }
+
+    .container-fluid select
+    {
+        color: rgb(0, 0, 0);
+        font-size: 20px;
+        background: lightgoldenrodyellow;
+        border: black solid 2px;
+        padding-bottom: 1rem;
+        width: 90%;
+    }
+
+    .container-fluid textarea
+    {
+        color: rgb(0, 0, 0);
+        font-size: 18px;
+        background: lightgoldenrodyellow;
+        border: black solid 2px;
+        margin-left: 2rem;
+        width: 90%;
+    }
+       .booking.bookbtn {
+
+        width:200px;
+        margin-left:-16rem;
+
+
+        }
+}

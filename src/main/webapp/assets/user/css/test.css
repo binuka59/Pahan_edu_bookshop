@@ -1,0 +1,133 @@
+.container-fluid .display
+{
+    font-size: 5rem;
+     margin-top:12rem;
+    padding-bottom: 2rem;
+}
+
+.offer_sections {
+  position: relative;
+  padding-top: 20px;
+}
+.offer_sections  .col-md-6 {
+
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.offer_sections .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.offer_sections .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 45px;
+  border: 5px solid black;
+  border-radius: 1rem;
+  padding: 20px 55px;
+    background:#f6f1da;
+     box-shadow: 0 14px 20px rgba(9, 9, 9, 0.9);
+
+}
+
+.offer_sections .box .img-box {
+  width: 175px;
+  min-width: 175px;
+  height: 175px;
+  margin-right: 15px;
+  position: relative;
+  -webkit-transition: all 0.1 0.5s;
+  transition: all 0.1 0.5s;
+  border-radius: 100%;
+  border: 3px solid gray;
+  overflow: hidden;
+
+}
+
+.offer_sections .box .img-box img {
+  width: 100%;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+
+}
+
+.offer_sections .box .detail-box h4 {
+  font-family: 'Dancing Script', cursive;
+  font-size:28px;
+  margin: 0;
+  text-align:center;
+  color:black;
+}
+.offer_sections .box .detail-box h5 {
+  font-family:'Times New Roman',Serif;
+  font-size: 18px;
+  margin: 0;
+  color:gray;
+  margin-top:1rem;
+  text-align:center;
+}
+
+
+
+.offer_sections .box .detail-box h6 span {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+
+
+.offer_sections .box .detail-box a svg {
+  width: 20px;
+  height: auto;
+  margin-left: 5px;
+  fill: #ffffff;
+}
+
+.offer_sections .box:hover .img-box img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+@media (max-width: 991px) {
+    .offer_sections .col-md-6 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        width:auto;
+    }
+
+    .offer_sections .row {
+        flex-direction: column;
+        align-items: center;
+          width:auto;
+    }
+
+    .offer_sections .box {
+        flex-direction: column;
+        text-align: center;
+        padding: 5px 60px;
+        margin-top: 25px;
+    }
+
+    .offer_sections .box .img-box {
+        width: 120px;
+        min-width: 120px;
+        height: 120px;
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+
+    .offer_sections .box .img-box img {
+        width: 100%;
+        height: auto;
+    }
+}
